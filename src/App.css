@@ -15,10 +15,14 @@
   text-align: center;
   font-family: 'Pathway Gothic One', sans-serif;
 }
-.buttonFlex {
+.componentFlex {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+.buttonFlex {
+  display: flex;
+  flex-direction: column;
 }
 /* .beer {
   width: 300px;

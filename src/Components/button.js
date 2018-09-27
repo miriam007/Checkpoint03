@@ -2,9 +2,9 @@ import React, { Component } from 'react';
  class Button extends Component {
     render() {
       return (
-        <div>
+        <div className='buttonFlex'>
           <img className='buttonImage' src={this.props.image} alt='buttonPicture'></img>
-          <div className='buttonText'>{this.props.text}</div>
+          <button className='buttonText'>{this.props.text}</button>
         </div>
       );
     }
